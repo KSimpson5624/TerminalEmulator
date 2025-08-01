@@ -11,6 +11,7 @@ struct TerminalView: View {
     
     @State private var input: String = ""
     @State private var output: String = ""
+    @State private var prompt: String = ""
     
     var body: some View {
         VStack {
@@ -19,7 +20,8 @@ struct TerminalView: View {
                     VStack(alignment: .leading) {
                         Text(output)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding()
+                            .foregroundColor(.green)
+                            .font(.custom("JetBrainsMono-Regular", size: 12))
                         
                         Color.clear
                             .frame(height: 1)
@@ -32,23 +34,33 @@ struct TerminalView: View {
                     }
                 }
             }
-            Divider()
+            //Divider()
             HStack {
-                TextField("Enter command", text: $input, onCommit: runCommand)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .frame(minWidth: 400)
-                    .padding()
-                    .focusable(true)
+                Text(prompt)
+                    .foregroundColor(.green)
+                    .font(.custom("JetBrainsMono-Regular", size: 12))
+            
+            
+                TextField("", text: $input, onCommit: runCommand)
+                    .textFieldStyle(.plain)
+                    .foregroundColor(.green)
+                    .background(Color.clear)
+                    .font(.custom("JetBrainsMono-Regular", size: 12))
+                    
+                    
             }
         }
         .padding()
+        .onAppear {
+            prompt = getPrompt()
+        }
     }
     
     func runCommand() {
         guard !input.isEmpty else { return }
         
         let result = executeShellCommand(input)
-        let prompt = getPrompt()
+        prompt = getPrompt()
         output += "\(prompt) \(input)\n\(result)\n"
         input = ""
     }
