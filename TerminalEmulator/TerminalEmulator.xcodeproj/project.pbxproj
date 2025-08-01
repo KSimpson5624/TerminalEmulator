@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8A0FB9FF2E376E1A0033F4F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A0FB9E82E376E180033F4F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0FB9EF2E376E180033F4F8;
+			remoteInfo = TerminalEmulator;
+		};
+		8A0FBA092E376E1A0033F4F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A0FB9E82E376E180033F4F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0FB9EF2E376E180033F4F8;
+			remoteInfo = TerminalEmulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A0FB9F02E376E180033F4F8 /* TerminalEmulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerminalEmulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0FB9FE2E376E1A0033F4F8 /* TerminalEmulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerminalEmulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0FBA082E376E1A0033F4F8 /* TerminalEmulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerminalEmulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8A0FB9F22E376E180033F4F8 /* TerminalEmulator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TerminalEmulator;
+			sourceTree = "<group>";
+		};
+		8A0FBA012E376E1A0033F4F8 /* TerminalEmulatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TerminalEmulatorTests;
+			sourceTree = "<group>";
+		};
+		8A0FBA0B2E376E1A0033F4F8 /* TerminalEmulatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TerminalEmulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A0FB9ED2E376E180033F4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FB9FB2E376E1A0033F4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FBA052E376E1A0033F4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A0FB9E72E376E180033F4F8 = {
+			isa = PBXGroup;
+			children = (
+				8A0FB9F22E376E180033F4F8 /* TerminalEmulator */,
+				8A0FBA012E376E1A0033F4F8 /* TerminalEmulatorTests */,
+				8A0FBA0B2E376E1A0033F4F8 /* TerminalEmulatorUITests */,
+				8A0FB9F12E376E180033F4F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A0FB9F12E376E180033F4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0FB9F02E376E180033F4F8 /* TerminalEmulator.app */,
+				8A0FB9FE2E376E1A0033F4F8 /* TerminalEmulatorTests.xctest */,
+				8A0FBA082E376E1A0033F4F8 /* TerminalEmulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A0FB9EF2E376E180033F4F8 /* TerminalEmulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0FBA122E376E1A0033F4F8 /* Build configuration list for PBXNativeTarget "TerminalEmulator" */;
+			buildPhases = (
+				8A0FB9EC2E376E180033F4F8 /* Sources */,
+				8A0FB9ED2E376E180033F4F8 /* Frameworks */,
+				8A0FB9EE2E376E180033F4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8A0FB9F22E376E180033F4F8 /* TerminalEmulator */,
+			);
+			name = TerminalEmulator;
+			packageProductDependencies = (
+			);
+			productName = TerminalEmulator;
+			productReference = 8A0FB9F02E376E180033F4F8 /* TerminalEmulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A0FB9FD2E376E1A0033F4F8 /* TerminalEmulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0FBA152E376E1A0033F4F8 /* Build configuration list for PBXNativeTarget "TerminalEmulatorTests" */;
+			buildPhases = (
+				8A0FB9FA2E376E1A0033F4F8 /* Sources */,
+				8A0FB9FB2E376E1A0033F4F8 /* Frameworks */,
+				8A0FB9FC2E376E1A0033F4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0FBA002E376E1A0033F4F8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A0FBA012E376E1A0033F4F8 /* TerminalEmulatorTests */,
+			);
+			name = TerminalEmulatorTests;
+			packageProductDependencies = (
+			);
+			productName = TerminalEmulatorTests;
+			productReference = 8A0FB9FE2E376E1A0033F4F8 /* TerminalEmulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A0FBA072E376E1A0033F4F8 /* TerminalEmulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0FBA182E376E1A0033F4F8 /* Build configuration list for PBXNativeTarget "TerminalEmulatorUITests" */;
+			buildPhases = (
+				8A0FBA042E376E1A0033F4F8 /* Sources */,
+				8A0FBA052E376E1A0033F4F8 /* Frameworks */,
+				8A0FBA062E376E1A0033F4F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0FBA0A2E376E1A0033F4F8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A0FBA0B2E376E1A0033F4F8 /* TerminalEmulatorUITests */,
+			);
+			name = TerminalEmulatorUITests;
+			packageProductDependencies = (
+			);
+			productName = TerminalEmulatorUITests;
+			productReference = 8A0FBA082E376E1A0033F4F8 /* TerminalEmulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A0FB9E82E376E180033F4F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					8A0FB9EF2E376E180033F4F8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					8A0FB9FD2E376E1A0033F4F8 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8A0FB9EF2E376E180033F4F8;
+					};
+					8A0FBA072E376E1A0033F4F8 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8A0FB9EF2E376E180033F4F8;
+					};
+				};
+			};
+			buildConfigurationList = 8A0FB9EB2E376E180033F4F8 /* Build configuration list for PBXProject "TerminalEmulator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A0FB9E72E376E180033F4F8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8A0FB9F12E376E180033F4F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A0FB9EF2E376E180033F4F8 /* TerminalEmulator */,
+				8A0FB9FD2E376E1A0033F4F8 /* TerminalEmulatorTests */,
+				8A0FBA072E376E1A0033F4F8 /* TerminalEmulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A0FB9EE2E376E180033F4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FB9FC2E376E1A0033F4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FBA062E376E1A0033F4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A0FB9EC2E376E180033F4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FB9FA2E376E1A0033F4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0FBA042E376E1A0033F4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A0FBA002E376E1A0033F4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0FB9EF2E376E180033F4F8 /* TerminalEmulator */;
+			targetProxy = 8A0FB9FF2E376E1A0033F4F8 /* PBXContainerItemProxy */;
+		};
+		8A0FBA0A2E376E1A0033F4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0FB9EF2E376E180033F4F8 /* TerminalEmulator */;
+			targetProxy = 8A0FBA092E376E1A0033F4F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A0FBA102E376E1A0033F4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A0FBA112E376E1A0033F4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8A0FBA132E376E1A0033F4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TerminalEmulator/TerminalEmulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KyleSimpson.TerminalEmulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A0FBA142E376E1A0033F4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TerminalEmulator/TerminalEmulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KyleSimpson.TerminalEmulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A0FBA162E376E1A0033F4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KyleSimpson.TerminalEmulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerminalEmulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerminalEmulator";
+			};
+			name = Debug;
+		};
+		8A0FBA172E376E1A0033F4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KyleSimpson.TerminalEmulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerminalEmulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerminalEmulator";
+			};
+			name = Release;
+		};
+		8A0FBA192E376E1A0033F4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KyleSimpson.TerminalEmulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TerminalEmulator;
+			};
+			name = Debug;
+		};
+		8A0FBA1A2E376E1A0033F4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J6Y3FFX54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KyleSimpson.TerminalEmulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TerminalEmulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0FB9EB2E376E180033F4F8 /* Build configuration list for PBXProject "TerminalEmulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0FBA102E376E1A0033F4F8 /* Debug */,
+				8A0FBA112E376E1A0033F4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0FBA122E376E1A0033F4F8 /* Build configuration list for PBXNativeTarget "TerminalEmulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0FBA132E376E1A0033F4F8 /* Debug */,
+				8A0FBA142E376E1A0033F4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0FBA152E376E1A0033F4F8 /* Build configuration list for PBXNativeTarget "TerminalEmulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0FBA162E376E1A0033F4F8 /* Debug */,
+				8A0FBA172E376E1A0033F4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0FBA182E376E1A0033F4F8 /* Build configuration list for PBXNativeTarget "TerminalEmulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0FBA192E376E1A0033F4F8 /* Debug */,
+				8A0FBA1A2E376E1A0033F4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A0FB9E82E376E180033F4F8 /* Project object */;
+}
