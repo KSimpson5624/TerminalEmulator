@@ -14,10 +14,23 @@ struct TerminalView: View {
     
     var body: some View {
         VStack {
-            ScrollView {
-                Text(output)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding()
+            ScrollViewReader { proxy in
+                ScrollView {
+                    VStack(alignment: .leading) {
+                        Text(output)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding()
+                        
+                        Color.clear
+                            .frame(height: 1)
+                            .id("BOTTOM")
+                    }
+                }
+                .onChange(of: output) {
+                    withAnimation {
+                        proxy.scrollTo("BOTTOM", anchor: .bottom)
+                    }
+                }
             }
             Divider()
             HStack {
